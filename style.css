@@ -135,3 +135,37 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+/* summary section */
+.rusume-container{
+    display: flex;
+    gap: 24px;
+}
+.rusume hr{
+    margin: 50px;
+}
+.exprience-decription,.exprience-sub-title{
+    color: rgb(117, 117, 117);
+}
+.rusume-btn{
+    margin-top: 50px;
+}
+
+/* Footer section */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-colomn{
+  width: 50%;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
